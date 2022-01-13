@@ -1,0 +1,85 @@
+<!-- CODE EXPLAINED TUTORIALS -->
+<!-- youtube.com/CodeExplained -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./resources/css/style.css">
+    <title>COVID-19 LIVE STATISTICS</title>
+</head>
+
+<body>
+    <header>
+        <div class = "mainlogo">
+            <img src = "./resources/img/mylogo.png" alt = "">*
+            <p>COVID-19 <br/> LIVE STATISTICS</p>
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href = "#">Created by</a></li>
+                <li><a href = "#">Dhruv Varshney</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class = "statistics">
+            <div class="reports">
+
+                <div class = "country">
+                    <div class="hh">Showing Stats for: </div>
+                    <div class="countryname">Hold up...</div>
+                    <div class="changecountry">Click to Change Location</div>
+                    <div class="search">
+                        <div class="search-box">
+                            <input type="text" id="search-input" placeholder="Search Country...">
+                            <img class = "close" src= "./resources/img/close.svg" alt="">
+                        </div>
+                        <div class="countrylist">
+                            <ul id="list-0">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class = "totalcases">
+    
+                    <div class="title">Total Cases</div>
+                    <div class="value">0</div>
+                    <div class="subtit">New Cases</div>
+                    <div class="changingvalue">+0</div>
+    
+                </div>
+                <div class = "recovered">
+    
+                    <div class="title"></div>
+                    <div class="value"></div>
+                    <div class="changingvalue"></div>
+    
+                </div>
+                <div class = "deaths">
+    
+                    <div class="title">Deaths</div>
+                    <div class="value">0</div>
+                    <div class="subtit">New Deaths</div>
+                    <div class="changingvalue">+0</div>
+    
+                </div>
+
+            </div>
+            <div class="graph">
+                <canvas id="axes_line_chart"></canvas>
+            </div>
+            
+        </div>
+    </main>
+    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+    <script src="resources/js/countries.js"></script>
+    <script src="resources/js/app.js"></script>
+
+</body>
+
+</html>
